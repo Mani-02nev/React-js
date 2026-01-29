@@ -1,0 +1,101 @@
+/* Full page center */
+body {
+     margin: 0;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(135deg, #2b1055, #4b0082, #6a0dad);
+     font-family: Arial, sans-serif;
+}
+
+.name {
+     text-align: center;
+     color: #e0c3fc;
+     font-weight: bold;
+     margin-bottom: 20px;
+}
+
+/* Calculator container */
+.calculator {
+     background: #1b0b2e;
+     padding: 20px;
+     border-radius: 16px;
+     box-shadow: 0 20px 45px rgba(128, 0, 255, 0.4);
+     width: 320px;
+     max-width: 90vw;
+}
+
+/* Button grid */
+.buttons {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 12px;
+}
+
+/* Display */
+.buttons input {
+     grid-column: span 4;
+     height: 60px;
+     font-size: 24px;
+     padding: 10px;
+     border-radius: 12px;
+     border: none;
+     text-align: right;
+     background: #ffffff;
+     color: #2a005a;
+     box-shadow: inset 0 0 10px rgba(186, 85, 255, 0.6);
+}
+
+/* Buttons */
+.buttons button {
+     height: 55px;
+     font-size: 18px;
+     border: none;
+     border-radius: 14px;
+     cursor: pointer;
+     background: #3a136f;
+     color: #f3e8ff;
+     transition: transform 0.1s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover & active */
+.buttons button:hover {
+     background: #51228c;
+     box-shadow: 0 0 10px rgba(186, 85, 255, 0.6);
+}
+
+.buttons button:active {
+     transform: scale(0.95);
+}
+
+/* Operator buttons (+ - * / =) */
+.buttons button:nth-last-child(-n+6) {
+     background: #7b2cbf;
+     color: #fff;
+}
+
+.buttons button:nth-last-child(-n+6):hover {
+     background: #9d4edd;
+}
+
+/* Equal button (=) */
+.buttons button:nth-last-child(-n+1) {
+     background: #5a189a;
+     color: #ffffff;
+}
+
+.buttons button:nth-last-child(-n+1):hover {
+     background: #7b2cbf;
+}
+
+.footer {
+     margin-top: 150px;
+     padding: 15px;
+     background: #2a005a;
+     border-radius: 12px;
+     color: #e0c3fc;
+     text-align: center;
+     box-shadow: 0 10px 30px rgba(128, 0, 255, 0.3);
+     bottom: 0;
+}

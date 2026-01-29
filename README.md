@@ -44,7 +44,7 @@ Each project focuses on:
 
 | Day | Project             | Key Concepts                  | Link               |
 | --- | ------------------- | ----------------------------- | ------------------ |
-| 01  | Calculator          | State logic, events           | /calculator        |
+| 01  | Calculator          | State logic, events           | [Launch](/calculator)      |
 | 02  | Counter             | Functional state updates      | /counter           |
 | 03  | Theme Toggle        | Conditional rendering         | /theme             |
 | 04  | Digital Clock       | useEffect lifecycle           | /clock             |
