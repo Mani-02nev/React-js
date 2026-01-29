@@ -1,0 +1,84 @@
+/* page center */
+.counter-container {
+     max-width: 420px;
+     width: 100%;
+     margin: 60px auto;
+     padding: 28px;
+     text-align: center;
+
+     background: linear-gradient(145deg, #111, #1a1a1a);
+     color: white;
+     border-radius: 18px;
+     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* title */
+.counter-container h1 {
+     margin-bottom: 18px;
+     font-size: clamp(22px, 4vw, 28px);
+     letter-spacing: 1px;
+}
+
+/* counter display */
+.count-box {
+     font-size: clamp(36px, 8vw, 52px);
+     font-weight: bold;
+     margin: 20px 0;
+     padding: 16px;
+     background: #000;
+     border-radius: 14px;
+}
+
+/* GRID BUTTON LAYOUT */
+.btn-group {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 14px;
+}
+
+/* common button */
+.btn {
+     padding: 14px;
+     font-size: clamp(14px, 3vw, 16px);
+     border: none;
+     border-radius: 12px;
+     cursor: pointer;
+     transition: all 0.25s ease;
+}
+
+/* button colors */
+.inc {
+     background: #22c55e;
+     color: #000;
+}
+
+.dec {
+     background: #ef4444;
+     color: white;
+}
+
+/* reset full width */
+.reset {
+     grid-column: span 2;
+     background: #3b82f6;
+     color: white;
+}
+
+/* hover */
+.btn:hover {
+     transform: translateY(-2px) scale(1.04);
+     opacity: 0.95;
+}
+
+/* active */
+.btn:active {
+     transform: scale(0.98);
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 480px) {
+     .counter-container {
+          margin: 40px 16px;
+          padding: 22px;
+     }
+}
