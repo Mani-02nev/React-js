@@ -1,5 +1,5 @@
-
-# 📅 Daily Report – React Calculator Project
+## Date:27/1/2026
+# 📅 Day-01 Report – React Calculator Project
 
 ## 📌 Project Title
 **Purple Theme Calculator (React)**

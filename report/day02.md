@@ -1,6 +1,6 @@
 
-
-# 📅 Day Report – Counter App (React)
+## Date:28/1/2026
+# 📅 Day02 Report – Counter App (React)
 
 ## 📌 Project Title
 Responsive Counter Application using React

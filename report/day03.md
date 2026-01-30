@@ -1,4 +1,5 @@
-# 📅 Day Report – React Theme Toggle
+## Date:29/1/2026
+# 📅 Day03  Report – React Theme Toggle
 
 ## 📌 Topic
 Global Light / Dark Theme Toggle using React
