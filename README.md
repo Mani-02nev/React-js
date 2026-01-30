@@ -47,7 +47,7 @@ Each project focuses on:
 | 01  | Calculator          | State logic, events           | [Launch](https://react-js-seven-gray.vercel.app/calculator)      |
 | 02  | Counter             | Functional state updates      | [Launch](https://react-js-seven-gray.vercel.app//counter)           |
 | 03  | Theme Toggle        | Conditional rendering         | [Launch](https://react-js-seven-gray.vercel.app/t-t)             |
-| 04  | Digital Clock       | useEffect lifecycle           | /clock             |
+| 04  | Digital Clock       | useEffect lifecycle           | [launch](https://react-js-seven-gray.vercel.app/clock)             |
 | 05  | Todo List           | CRUD, immutability            | /todo              |
 | 06  | Form Validation     | Controlled inputs, regex      | /form              |
 | 07  | Color Picker        | Dynamic styles                | /color             |
